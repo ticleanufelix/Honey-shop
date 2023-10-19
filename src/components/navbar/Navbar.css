@@ -1,0 +1,56 @@
+.nav-bar-desktop {
+  background-image: url('../../assets/body_bg.png');
+
+}
+
+.img-navbar {
+  width: 60px;
+  background: none;
+  border: 0;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  padding: 20px;
+}
+
+
+
+.cart-btn {
+background: none;
+border: 0;
+cursor: pointer;
+
+}
+
+
+
+.btn-nav {
+  color:darkorange;
+  border: 0;
+  width: max-content;
+  cursor: pointer;
+  background: none;
+ font-size: 18px;
+}
+
+.btn-nav:hover {
+  text-decoration: underline;
+  color: darkgoldenrod;
+}
+
+@media (max-width: 768px) {
+  .nav-bar-desktop {
+  display: none;
+  }
+}
+
+
+.btn-img {
+  background: none;
+border: 0;
+cursor: pointer;
+}

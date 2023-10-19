@@ -1,0 +1,40 @@
+.banner {
+  
+    display: flex;
+    background-image: url('../../assets/body_bg.png');
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.btn-banner {
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    
+
+}
+
+.banner-details-home {
+    color: aliceblue;
+}
+
+.banner-right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  }
+
+  

@@ -1,0 +1,24 @@
+
+.btn {
+    background: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    border: 0;
+    border-radius: 12px;
+    cursor: pointer;
+    color:#fff;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.4;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+.btn:not([disabled]):active {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+
+body{overflow-x: hidden;}

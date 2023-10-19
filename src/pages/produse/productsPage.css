@@ -1,0 +1,52 @@
+.baneer-products {
+    background-image: url('../../assets/banner-articole.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.description-banner {
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+.banner-details {
+
+   text-align: center;
+   margin-top:0px;
+}
+
+
+
+.btns-categorii {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn-categorii {
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    width: 500px;
+}
+
+.categorii {
+    margin-top:90px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .btn-categorii {
+        
+       width: 350px;
+        }
+}
+        

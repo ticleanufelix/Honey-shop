@@ -1,0 +1,36 @@
+.about-us-main {
+    margin-top: 100px;
+    display: flex;
+    background-image: url('../../assets/body_bg.png');
+}
+
+.img-about-us {
+    width: 150px;
+}
+
+.about-us-desciption {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ color: white;
+}
+
+.btn-about-us {
+
+margin-top: 50px;  
+}
+
+@media (max-width: 768px) {
+
+    .about-us-main {
+      display: flex;
+  
+    }
+    .about-us-desciption  {
+        width: 200px;
+    }
+
+    .btn-about-us {
+        margin-top: 20px;
+    }
+    }

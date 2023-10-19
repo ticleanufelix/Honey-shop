@@ -1,0 +1,37 @@
+.product-main {
+display: flex;
+margin-top: 150px;
+}
+
+.img-product {
+    width: 600px;
+    height: 600px;
+}
+
+.qty {
+    display: flex;
+    align-items: center;
+}
+
+.btn-product {
+    margin-left: 50px;
+    width: 100px;
+  
+}
+@media (max-width: 768px) {
+   .img-product {
+    width: 200px;
+    height: 200px;
+   }
+   .product-main {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+   }
+   .qty {
+    margin-left: 100px;
+    margin-bottom: 50px;
+   }
+  }

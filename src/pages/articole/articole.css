@@ -1,0 +1,22 @@
+.banner-aticole {
+    background-image: url('../../assets/banner-articole.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.articole {
+  
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin-top: 150px;
+    gap: 47px;
+}
+
+.title {
+    color:#E0680F
+}
+
+.description-banner {
+    color: #E0680F;
+}
