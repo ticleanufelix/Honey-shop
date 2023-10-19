@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import aboutsUS from "../../assets/despre-noi.png";
-import "./aboutUS.css";
+import "./aboutUs.css";
 
 function AboutUs() {
   return (
