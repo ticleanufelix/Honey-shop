@@ -7,12 +7,12 @@ import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import "./articole.css";
 
-import articlo1 from "../../assets/articlo1.jpg";
-import articlo2 from "../../assets/articlo2.jpg";
-import articlo3 from "../../assets/articlo3.jpg";
-import articlo4 from "../../assets/articlo4.jpg";
-import articlo5 from "../../assets/articlo5.jpg";
-import articlo6 from "../../assets/articlo6.jpg";
+import articlo1 from "../../assets/articlo1.png";
+import articlo2 from "../../assets/articlo2.png";
+import articlo3 from "../../assets/articlo3.png";
+import articlo4 from "../../assets/articlo4.png";
+import articlo5 from "../../assets/articlo5.png";
+import articlo6 from "../../assets/articlo6.png";
 function Articole() {
   return (
     <div>
