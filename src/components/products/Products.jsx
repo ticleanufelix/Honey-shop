@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import productsData from "../productsData";
 import { useCart } from "../../context/CartContext";
+import image from "../../assets/articol1.png";
 
 function Products({ selectedCategory, limit }) {
   const [products, setProducts] = useState([]);
@@ -26,7 +27,7 @@ function Products({ selectedCategory, limit }) {
             <article className="card">
               <img
                 className="card__background"
-                src={product.imageURL}
+                src={image}
                 alt={product.name}
                 width="1920"
                 height="2193"
