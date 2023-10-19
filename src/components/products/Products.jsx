@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import productsData from "../productsData";
 import { useCart } from "../../context/CartContext";
-
+import iamge from "../../assets/articol1.png";
 function Products({ selectedCategory, limit }) {
   const [products, setProducts] = useState([]);
   const { addToCart } = useCart();
@@ -26,7 +26,7 @@ function Products({ selectedCategory, limit }) {
             <article className="card">
               <img
                 className="card__background"
-                src={product.imageURL}
+                src={iamge}
                 alt={product.name}
                 width="1920"
                 height="2193"
