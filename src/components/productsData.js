@@ -5,7 +5,7 @@ const productsData = [
     description:
       "Mierea de anghinare are aromă și gust caracteristic, fiind recoltată de albine din florile spontane, înflorite în condiții favorabile în a doua parte a verii pe islazurile sau terasele din lunca Dunării.",
     price: 20,
-    imageURL: "/assets/miere-anghinare.png",
+    imageURL: "src/assets/miere-anghinare.png",
     category: "miere",
   },
   {
@@ -14,7 +14,7 @@ const productsData = [
     description:
       " Miere și polen foarte parfumat, cea mai mare parte fiind cheltuită pentru hrana puietului și dezvoltarea timpurie a familiilor de albini, cee ace este foarte important pentru apicultori!",
     price: 20,
-    imageURL: "/assets/miere-malin.png",
+    imageURL: "/src/assets/miere-malin.png",
     category: "miere",
   },
   {
@@ -23,7 +23,7 @@ const productsData = [
     description:
       "Mierea de menta este un rasfat rar. Are o aroma puternica si distinctiva, care variaza in functie de varietatea de menta din care a fost facuta. Din fericire, menta este cultivata pentru uleiul sau esential si aceste campuri mari de menta.",
     price: 25,
-    imageURL: "/assets/miere-menta.png",
+    imageURL: "./src/assets/miere-menta.png",
     category: "miere",
   },
   {
@@ -32,7 +32,7 @@ const productsData = [
     description:
       "Considerata de catre majoritatea specialistilor o miere completa, mierea poliflora are in compozitia sa complexul de vitamine B si C, minerale (calciu, magneziu, fier), enzime si acizi organici. Datorita continutului sau de glucoza, sucroza si fructoza.",
     price: 20,
-    imageURL: "/assets/miere-poliflora.png",
+    imageURL: "public/src/assets/miere-poliflora.png",
     category: "miere",
   },
   {
@@ -41,7 +41,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 40,
-    imageURL: "/assets/miere-salcam.png",
+    imageURL: "Honey-shop/src/assets/miere-salcam.png",
     category: "miere",
   },
   {
