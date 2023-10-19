@@ -21,7 +21,7 @@ function Products({ selectedCategory, limit }) {
   return (
     <>
       <div className="product-container">
-        {filteredProducts.map((product) => (
+        {products.map((product) => (
           <div key={product.id} className="card-main">
             <article className="card">
               <img

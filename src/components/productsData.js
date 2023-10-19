@@ -1,3 +1,5 @@
+import productImage from "../assets/articol1.png";
+
 const productsData = [
   {
     id: 1,
@@ -5,7 +7,7 @@ const productsData = [
     description:
       "Mierea de anghinare are aromă și gust caracteristic, fiind recoltată de albine din florile spontane, înflorite în condiții favorabile în a doua parte a verii pe islazurile sau terasele din lunca Dunării.",
     price: 20,
-    imageURL: require("../assets/miere-anghinare.png").default,
+    imageURL: productImage,
     category: "miere",
   },
   {
@@ -14,7 +16,7 @@ const productsData = [
     description:
       " Miere și polen foarte parfumat, cea mai mare parte fiind cheltuită pentru hrana puietului și dezvoltarea timpurie a familiilor de albini, cee ace este foarte important pentru apicultori!",
     price: 20,
-    imageURL: "../../assets/miere-malin.png",
+    imageURL: "../assets/miere-malin.png",
     category: "miere",
   },
   {
@@ -23,7 +25,7 @@ const productsData = [
     description:
       "Mierea de menta este un rasfat rar. Are o aroma puternica si distinctiva, care variaza in functie de varietatea de menta din care a fost facuta. Din fericire, menta este cultivata pentru uleiul sau esential si aceste campuri mari de menta.",
     price: 25,
-    imageURL: "../../assets/miere-menta.png",
+    imageURL: "../assets/miere-menta.png",
     category: "miere",
   },
   {
@@ -32,7 +34,7 @@ const productsData = [
     description:
       "Considerata de catre majoritatea specialistilor o miere completa, mierea poliflora are in compozitia sa complexul de vitamine B si C, minerale (calciu, magneziu, fier), enzime si acizi organici. Datorita continutului sau de glucoza, sucroza si fructoza.",
     price: 20,
-    imageURL: "../../assets/miere-poliflora.png",
+    imageURL: "../assets/miere-poliflora.png",
     category: "miere",
   },
   {
@@ -41,7 +43,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 40,
-    imageURL: "../../assets/miere-salcam.png",
+    imageURL: "../assets/miere-salcam.png",
     category: "miere",
   },
   {
@@ -50,7 +52,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: "../../assets/miere-tei.png",
+    imageURL: "../assets/miere-tei.png",
     category: "miere",
   },
   {
@@ -59,7 +61,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: "../../assets/turta-proteine.jpg",
+    imageURL: "../assets/turta-proteine.jpg",
     category: "hrana",
   },
   {
@@ -68,7 +70,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: "../../assets/turta-energetica.jpg",
+    imageURL: "../assets/turta-energetica.jpg",
     category: "hrana",
   },
   {
@@ -77,7 +79,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: "../../assets/turta-vitamine.jpg",
+    imageURL: "../assets/turta-vitamine.jpg",
     category: "hrana",
   },
   {
@@ -86,7 +88,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: "../../assets/turta-minerale.jpg",
+    imageURL: "../assets/turta-minerale.jpg",
     category: "hrana",
   },
   {
@@ -95,7 +97,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: "../../assets/turta-dulcofruct.jpg",
+    imageURL: "../assets/turta-dulcofruct.jpg",
     category: "hrana",
   },
   {
@@ -104,7 +106,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: "../../assets/turta-polen.jpg",
+    imageURL: "../assets/turta-polen.jpg",
     category: "hrana",
   },
   {
@@ -113,7 +115,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: "../../assets/colector.jpg",
+    imageURL: "../assets/colector.jpg",
     category: "accesorii",
   },
   {
@@ -122,7 +124,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: "../../assets/urdinis.jpg",
+    imageURL: "../assets/urdinis.jpg",
     category: "accesorii",
   },
   {
@@ -131,7 +133,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: "../../assets/adapator-stupina.jpg",
+    imageURL: "../assets/adapator-stupina.jpg",
     category: "accesorii",
   },
   {
@@ -140,7 +142,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: "../../assets/agrafe.jpg",
+    imageURL: "../assets/agrafe.jpg",
     category: "accesorii",
   },
   {
@@ -149,7 +151,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: "../../assets/carabina-metalica.jpg",
+    imageURL: "../assets/carabina-metalica.jpg",
     category: "accesorii",
   },
   {
@@ -158,7 +160,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: "../../assets/capcana-metal.jpg",
+    imageURL: "../assets/capcana-metal.jpg",
     category: "accesorii",
   },
 ];
