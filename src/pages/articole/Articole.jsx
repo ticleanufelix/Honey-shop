@@ -6,6 +6,13 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import "./articole.css";
+
+import articlo1 from "../../assets/articlo1.jpg";
+import articlo2 from "../../assets/articlo2.jpg";
+import articlo3 from "../../assets/articlo3.jpg";
+import articlo4 from "../../assets/articlo4.jpg";
+import articlo5 from "../../assets/articlo5.jpg";
+import articlo6 from "../../assets/articlo6.jpg";
 function Articole() {
   return (
     <div>
@@ -21,7 +28,7 @@ function Articole() {
             <CardMedia
               component="img"
               height="140"
-              image="src/assets/articol1.png"
+              image={articlo1}
               alt="green iguana"
             />
             <CardContent>
@@ -48,7 +55,7 @@ function Articole() {
             <CardMedia
               component="img"
               height="140"
-              image="src/assets/articol2.png"
+              image={articlo2}
               alt="green iguana"
             />
             <CardContent>
@@ -74,7 +81,7 @@ function Articole() {
             <CardMedia
               component="img"
               height="140"
-              image="src/assets/articol3.png"
+              image={articlo3}
               alt="green iguana"
             />
             <CardContent>
@@ -101,7 +108,7 @@ function Articole() {
             <CardMedia
               component="img"
               height="140"
-              image="src/assets/articol4.png"
+              image={articlo4}
               alt="green iguana"
             />
             <CardContent>
@@ -127,7 +134,7 @@ function Articole() {
             <CardMedia
               component="img"
               height="140"
-              image="src/assets/articol5.png"
+              image={articlo5}
               alt="green iguana"
             />
             <CardContent>
@@ -154,7 +161,7 @@ function Articole() {
             <CardMedia
               component="img"
               height="140"
-              image="/src/assets/articol6.png"
+              image={articlo6}
               alt="green iguana"
             />
             <CardContent>
