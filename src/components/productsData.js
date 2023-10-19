@@ -5,7 +5,7 @@ const productsData = [
     description:
       "Mierea de anghinare are aromă și gust caracteristic, fiind recoltată de albine din florile spontane, înflorite în condiții favorabile în a doua parte a verii pe islazurile sau terasele din lunca Dunării.",
     price: 20,
-    imageURL: require("./assets/miere-anghinare.png").default,
+    imageURL: require("../assets/miere-anghinare.png").default,
     category: "miere",
   },
   {
