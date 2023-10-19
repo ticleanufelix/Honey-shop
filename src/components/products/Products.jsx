@@ -36,7 +36,6 @@ function Products({ selectedCategory, limit }) {
                   <h2 className="card__title">{product.name}</h2>
                   <p className="card__description">{product.description}</p>
                   <p className="pret">Pret: {product.price} lei </p>
-                  {product.imageURL}
                 </div>
                 <div className="btns">
                   <Link to={`/product/${product.id}`}>
