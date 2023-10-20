@@ -1,4 +1,4 @@
-import anghinare from "../assets/miere-anginare.png";
+import anghinare from "./assets/miere-anginare.png";
 import malin from "../assets/miere-malin.png";
 import menta from "../assets/miere-menta.png";
 import poliflora from "../assets/miere-poliflora.png";
