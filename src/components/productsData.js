@@ -1,21 +1,6 @@
-import anghinare from "./assets/miere-anginare.png";
 import malin from "../assets/miere-malin.png";
-import menta from "../assets/miere-menta.png";
-import poliflora from "../assets/miere-poliflora.png";
-import salcam from "../assets/miere-salcam.png";
-import tei from "../assets/miere-tei.png";
-import dulcofruct from "../assets/turta-dulcofruct.jpg";
-import enegetica from "../assets/turta-energetica.jpg";
-import minerale from "../assets/turta-minerale.jpg";
-import polen from "../assets/turta-polen.jpg";
-import proteine from "../assets/turta-proteine.jpg";
-import vitamine from "../assets/turta-vitamine.jpg";
-import colector from "../assets/colecto.jpgr";
-import urdinis from "../assets/urdinis.jpg";
-import adaptor from "../assets/adaptor-stupina.jpg";
-import agrafe from "../assets/agrafe.jpg";
-import carabina from "../assets/carabina-metalica.jpg";
-import capcana from "../assets/capcana-metal.jpg";
+import anghinare from "../assets/miere-anghinare.png";
+
 const productsData = [
   {
     id: 1,
@@ -41,7 +26,7 @@ const productsData = [
     description:
       "Mierea de menta este un rasfat rar. Are o aroma puternica si distinctiva, care variaza in functie de varietatea de menta din care a fost facuta. Din fericire, menta este cultivata pentru uleiul sau esential si aceste campuri mari de menta.",
     price: 25,
-    imageURL: menta,
+    imageURL: "/assets/articol1.png",
     category: "miere",
   },
   {
@@ -50,7 +35,7 @@ const productsData = [
     description:
       "Considerata de catre majoritatea specialistilor o miere completa, mierea poliflora are in compozitia sa complexul de vitamine B si C, minerale (calciu, magneziu, fier), enzime si acizi organici. Datorita continutului sau de glucoza, sucroza si fructoza.",
     price: 20,
-    imageURL: poliflora,
+    imageURL: "/assets/articol1.png",
     category: "miere",
   },
   {
@@ -59,7 +44,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 40,
-    imageURL: salcam,
+    imageURL: "/assets/articol1.png",
     category: "miere",
   },
   {
@@ -68,7 +53,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: tei,
+    imageURL: "/assets/articol1.png",
     category: "miere",
   },
   {
@@ -77,7 +62,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: proteine,
+    imageURL: "/assets/articol1.png",
     category: "hrana",
   },
   {
@@ -86,7 +71,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: enegetica,
+    imageURL: "/assets/articol1.png",
     category: "hrana",
   },
   {
@@ -95,7 +80,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: vitamine,
+    imageURL: "/assets/articol1.png",
     category: "hrana",
   },
   {
@@ -104,7 +89,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: minerale,
+    imageURL: "/assets/articol1.png",
     category: "hrana",
   },
   {
@@ -113,7 +98,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: dulcofruct,
+    imageURL: "/assets/articol1.png",
     category: "hrana",
   },
   {
@@ -122,7 +107,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: polen,
+    imageURL: "/assets/articol1.png",
     category: "hrana",
   },
   {
@@ -131,7 +116,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: colector,
+    imageURL: "/assets/articol1.png",
     category: "accesorii",
   },
   {
@@ -140,7 +125,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: urdinis,
+    imageURL: "/assets/articol1.png",
     category: "accesorii",
   },
   {
@@ -149,7 +134,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: adaptor,
+    imageURL: "/assets/articol1.png",
     category: "accesorii",
   },
   {
@@ -158,7 +143,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: agrafe,
+    imageURL: "/assets/articol1.png",
     category: "accesorii",
   },
   {
@@ -167,7 +152,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: carabina,
+    imageURL: "/assets/articol1.png",
     category: "accesorii",
   },
   {
@@ -176,7 +161,7 @@ const productsData = [
     description:
       "Mierea de salcam este una dintre cele mai cunoscute si dulci sortimente de miere datorita gustului delicat cu tenta florala. Aceasta isi pastreaza starea lichida pentru o lunga perioada de timp datorita continutului ridicat de fructoza.",
     price: 30,
-    imageURL: capcana,
+    imageURL: "/assets/articol1.png",
     category: "accesorii",
   },
 ];
