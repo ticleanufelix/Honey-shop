@@ -7,7 +7,7 @@ function AboutUs() {
   return (
     <div>
       <Navbar />
-      <div className="banner-aticole">
+      <div className="banner-contact">
         <h1 className="title">Despre noi</h1>
         <p className="description-banner">Home » Despre noi</p>
       </div>

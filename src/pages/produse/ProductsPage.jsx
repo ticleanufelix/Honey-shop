@@ -13,7 +13,7 @@ function ProductsPage() {
   return (
     <div>
       <Navbar />
-      <div className="baneer-products">
+      <div className="banner-contact">
         <h1 className="title">Produse</h1>
         <p className="description-banner">Home » Produse</p>
       </div>

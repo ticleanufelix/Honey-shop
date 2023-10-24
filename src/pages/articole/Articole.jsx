@@ -11,7 +11,7 @@ function Articole() {
   return (
     <div>
       <Navbar />
-      <div className="banner-aticole">
+      <div className="banner-contact">
         <h1 className="title">Articole</h1>
         <p className="description-banner">Home » Articole</p>
       </div>
