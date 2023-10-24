@@ -2,8 +2,10 @@ import banner from "../../assets/banner.png";
 import "./HeroBanner.css";
 import "../../index.css";
 import { Link } from "react-router-dom";
+import { useCart } from "../../context/CartContext";
 
 function HeroBanner() {
+  const { scrollToTop } = useCart();
   return (
     <div className="banner">
       <div>
@@ -20,7 +22,7 @@ function HeroBanner() {
           </p>
         </div>
         <div>
-          <Link to={"/produse"}>
+          <Link to={"/produse"} onClick={scrollToTop}>
             <button className="btn-banner btn">Vezi produse</button>
           </Link>
         </div>

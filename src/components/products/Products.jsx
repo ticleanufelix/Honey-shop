@@ -5,6 +5,7 @@ import productsData from "../productsData";
 import { useCart } from "../../context/CartContext";
 
 function Products({ selectedCategory, limit }) {
+  const { scrollToTop } = useCart();
   const [products, setProducts] = useState([]);
   const { addToCart } = useCart();
 
@@ -38,7 +39,7 @@ function Products({ selectedCategory, limit }) {
                   <p className="pret">Pret: {product.price} lei </p>
                 </div>
                 <div className="btns">
-                  <Link to={`/product/${product.id}`}>
+                  <Link to={`/product/${product.id}`} onClick={scrollToTop}>
                     <button className="card__button">Afla mai multe</button>
                   </Link>
                   <button

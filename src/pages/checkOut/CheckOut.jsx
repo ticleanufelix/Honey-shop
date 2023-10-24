@@ -5,7 +5,7 @@ import { useCart } from "../../context/CartContext";
 import "./checkOut.css";
 
 function CheckOut() {
-  const { cart, resetCart } = useCart();
+  const { cart, resetCart, scrollToTop } = useCart();
 
   const calculateTotalPrice = () => {
     let totalPrice = 0;
@@ -57,7 +57,7 @@ function CheckOut() {
           <div className="price-btn">
             <p>Preț Total: {calculateTotalPrice()} lei</p>
             <Link to={"/finish"}>
-              <button className=" btn" onClick={resetCart}>
+              <button className=" btn" onClick={(resetCart, scrollToTop)}>
                 Finalizare comanda
               </button>
             </Link>
