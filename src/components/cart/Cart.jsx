@@ -3,7 +3,7 @@ import { useCart } from "../../context/CartContext";
 import "./cart.css";
 import DeleteIcon from "@mui/icons-material/Delete";
 function Cart({ onClose }) {
-  const { cart, removeFromCart } = useCart();
+  const { cart, removeFromCart, scrollToTop } = useCart();
   const handleRemoveFromCart = (productId) => {
     removeFromCart(productId);
   };
@@ -52,7 +52,7 @@ function Cart({ onClose }) {
               <p className="total-price">
                 Preț Total: {calculateTotalPrice()} lei
               </p>
-              <Link to={"/check-out"}>
+              <Link to={"/check-out"} onClick={scrollToTop}>
                 <button className="check-out btn">Finalizeaza comanda</button>
               </Link>
             </div>
