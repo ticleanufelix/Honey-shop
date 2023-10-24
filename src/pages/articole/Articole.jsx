@@ -10,7 +10,7 @@ import art1 from "../../assets/articol1.png";
 import art2 from "../../assets/articol2.png";
 import art3 from "../../assets/articol3.png";
 import art4 from "../../assets/articol4.png";
-import art5 from "../../assets/aticol5.png";
+import art5 from "../../assets/articol5.png";
 import art6 from "../../assets/articol6.png";
 
 function Articole() {
