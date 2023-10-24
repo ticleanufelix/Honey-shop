@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import aboutsUS from "../../assets/despre-noi.png";
 import "./aboutUs.css";
+import { useCart } from "../../context/CartContext";
 
 function AboutUs() {
+  const { scrollToTop } = useCart();
   return (
     <div className="about-us-main">
       <div>
@@ -18,7 +20,7 @@ function AboutUs() {
           ultimii ani am avut posibilitatea să oferim mierea produsă la noi în
           stupină cât mai multor oameni și îți mulțumim că ne vizitezi.
         </p>
-        <Link to={"/despre-noi"}>
+        <Link to={"/despre-noi"} onClick={scrollToTop}>
           <button className="btn-about-us btn">Mai multe despre noi</button>
         </Link>
       </div>

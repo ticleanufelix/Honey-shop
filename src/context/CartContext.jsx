@@ -33,9 +33,12 @@ export function CartProvider({ children }) {
     setCart([]);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <CartContext.Provider
-      value={{ cart, addToCart, removeFromCart, resetCart }}
+      value={{ cart, addToCart, removeFromCart, resetCart, scrollToTop }}
     >
       {children}
     </CartContext.Provider>

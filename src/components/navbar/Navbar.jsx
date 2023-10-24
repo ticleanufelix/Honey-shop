@@ -5,9 +5,11 @@ import { useState } from "react";
 import Cart from "../cart/Cart";
 import { Link } from "react-router-dom";
 import SidesBar from "../burgerNavbar/SidesBar";
+import { useCart } from "../../context/CartContext";
 
 function Navbar() {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const { scrollToTop } = useCart();
 
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
@@ -18,24 +20,24 @@ function Navbar() {
       <SidesBar />
       <div className="nav-bar-desktop">
         <div className="pages">
-          <Link to={"/"}>
+          <Link to={"/"} onClick={scrollToTop}>
             <button className="btn-img">
               <img src={logo} alt="" className="img-navbar" />
             </button>
           </Link>
-          <Link to="/">
+          <Link to="/" onClick={scrollToTop}>
             <button className="btn-nav">Home</button>
           </Link>
-          <Link to={"/produse"}>
+          <Link to={"/produse"} onClick={scrollToTop}>
             <button className="btn-nav">Produse</button>
           </Link>
-          <Link to={"/articole"}>
+          <Link to={"/articole"} onClick={scrollToTop}>
             <button className="btn-nav">Articole</button>
           </Link>
-          <Link to={"/despre-noi"}>
+          <Link to={"/despre-noi"} onClick={scrollToTop}>
             <button className="btn-nav">Despre noi</button>
           </Link>
-          <Link to={"/contact"}>
+          <Link to={"/contact"} onClick={scrollToTop}>
             <button className="btn-nav">Contact</button>
           </Link>
           <div className="cart-btn" onClick={toggleModal}>

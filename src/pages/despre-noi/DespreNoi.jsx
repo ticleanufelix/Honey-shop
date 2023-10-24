@@ -2,8 +2,10 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 import "./despreNoi.css";
+import { useCart } from "../../context/CartContext";
 
 function AboutUs() {
+  const { scrollToTop } = useCart();
   return (
     <div>
       <Navbar />
@@ -94,7 +96,7 @@ function AboutUs() {
           Livrare personală în București in Vatra Luminoasa, 26 și prin curier
           sau Poșta Română, în toată ţara.
         </p>
-        <Link to={"/produse"}>
+        <Link to={"/produse"} onClick={scrollToTop}>
           <button className="btn-despre-noi btn">Vezi toate produsele</button>
         </Link>
       </div>

@@ -6,8 +6,10 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import { Link } from "react-router-dom";
+import { useCart } from "../../context/CartContext";
 
 function Contact() {
+  const { scrollToTop } = useCart();
   return (
     <div className="all">
       <Navbar />
@@ -65,7 +67,7 @@ function Contact() {
           Livrare personală în București in Vatra Luminoasa, 26 și prin curier
           sau Poșta Română, în toată ţara.
         </p>
-        <Link to={"/produse"}>
+        <Link to={"/produse"} onClick={scrollToTop}>
           <button className="btn-despre-noi btn">Vezi toate produsele</button>
         </Link>
       </div>
