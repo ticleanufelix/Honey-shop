@@ -6,6 +6,7 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import "./articole.css";
+import art1 from "../../assets/articol1.png";
 
 function Articole() {
   return (
@@ -22,8 +23,7 @@ function Articole() {
             <CardMedia
               component="img"
               height="140"
-              image="../../assets/articol1.png
-              "
+              image={art1}
               alt="green iguana"
             />
             <CardContent>
