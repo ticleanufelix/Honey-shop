@@ -7,6 +7,11 @@ import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import "./articole.css";
 import art1 from "../../assets/articol1.png";
+import art2 from "../../assets/articol2.png";
+import art3 from "../../assets/articol3.png";
+import art4 from "../../assets/articol4.png";
+import art5 from "../../assets/aticol5.png";
+import art6 from "../../assets/articol6.png";
 
 function Articole() {
   return (
@@ -50,8 +55,7 @@ function Articole() {
             <CardMedia
               component="img"
               height="140"
-              image="../../assets/articol1.png
-              "
+              image={art2}
               alt="green iguana"
             />
             <CardContent>
@@ -77,8 +81,7 @@ function Articole() {
             <CardMedia
               component="img"
               height="140"
-              image="../../assets/articol1.png
-              "
+              image={art3}
               alt="green iguana"
             />
             <CardContent>
@@ -105,8 +108,7 @@ function Articole() {
             <CardMedia
               component="img"
               height="140"
-              image="../../assets/articol1.png
-              "
+              image={art4}
               alt="green iguana"
             />
             <CardContent>
@@ -132,8 +134,7 @@ function Articole() {
             <CardMedia
               component="img"
               height="140"
-              image="../../assets/articol1.png
-              "
+              image={art5}
               alt="green iguana"
             />
             <CardContent>
@@ -160,8 +161,7 @@ function Articole() {
             <CardMedia
               component="img"
               height="140"
-              image="../../assets/articol1.png
-              "
+              image={art6}
               alt="green iguana"
             />
             <CardContent>
