@@ -90,5 +90,9 @@
       font-size: 16px;
     }
   
-
+    .menu {
+      position: fixed;
+      background-color: white;
+      width: 390px;
+    }
     
