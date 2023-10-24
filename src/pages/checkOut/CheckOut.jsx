@@ -57,7 +57,7 @@ function CheckOut() {
           <div className="price-btn">
             <p>Preț Total: {calculateTotalPrice()} lei</p>
             <Link to={"/finish"}>
-              <button className=" btn" onClick={(resetCart, scrollToTop)}>
+              <button className=" btn" onClick={(scrollToTop, resetCart)}>
                 Finalizare comanda
               </button>
             </Link>
