@@ -88,11 +88,12 @@
       border: none;
       background: none;
       font-size: 16px;
+      color: black;
     }
   
     .menu {
       background-color: white;
-      width: 390px;
+      width: 100%;
       position: fixed;
       top: 0;
       z-index: 1000
